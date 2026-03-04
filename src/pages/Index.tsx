@@ -297,8 +297,8 @@ export default function Index() {
                       <span className="flex items-center gap-1"><Icon name="Monitor" size={14} /> Windows</span>
                     </div>
                   </div>
-                  <div className="px-3 py-1 rounded-full bg-green-500/20 border border-green-500/40 text-green-300 text-xs font-orbitron">
-                    ПОЛНАЯ
+                  <div className="px-3 py-1 rounded-full bg-blue-500/20 border border-blue-500/40 text-blue-300 text-xs font-orbitron">
+                    ДЕМО — БЕСПЛАТНО
                   </div>
                 </div>
 
@@ -316,15 +316,31 @@ export default function Index() {
                   ))}
                 </div>
 
-                <button className="w-full flex items-center justify-center gap-3 py-4 bg-green-500 hover:bg-green-400 text-[#050e08] font-orbitron font-black text-sm tracking-wider rounded-lg transition-all duration-200 hover:scale-[1.02] animate-pulse-glow">
-                  <Icon name="Download" size={20} />
-                  СКАЧАТЬ — БЕСПЛАТНО
-                </button>
+                <div className="flex flex-col gap-3">
+                  <a
+                    href="https://store.steampowered.com/app/1284190/The_Planet_Crafter/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="w-full flex items-center justify-center gap-3 py-4 bg-green-500 hover:bg-green-400 text-[#050e08] font-orbitron font-black text-sm tracking-wider rounded-lg transition-all duration-200 hover:scale-[1.02] animate-pulse-glow"
+                  >
+                    <Icon name="Download" size={20} />
+                    СКАЧАТЬ ДЕМО В STEAM — БЕСПЛАТНО
+                  </a>
+                  <a
+                    href="https://store.steampowered.com/app/1284190/The_Planet_Crafter/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="w-full flex items-center justify-center gap-3 py-3 border border-green-500/30 text-green-400 hover:bg-green-500/10 font-orbitron text-xs tracking-wider rounded-lg transition-all duration-200"
+                  >
+                    <Icon name="ShoppingCart" size={16} />
+                    КУПИТЬ ПОЛНУЮ ВЕРСИЮ
+                  </a>
+                </div>
 
                 <div className="mt-4 flex items-center justify-center gap-6 text-green-600 text-xs font-exo">
-                  <span className="flex items-center gap-1"><Icon name="Shield" size={12} /> Без вирусов</span>
-                  <span className="flex items-center gap-1"><Icon name="Zap" size={12} /> Быстрая загрузка</span>
-                  <span className="flex items-center gap-1"><Icon name="CheckCircle" size={12} /> Проверено</span>
+                  <span className="flex items-center gap-1"><Icon name="Shield" size={12} /> Официально</span>
+                  <span className="flex items-center gap-1"><Icon name="Zap" size={12} /> Без вирусов</span>
+                  <span className="flex items-center gap-1"><Icon name="CheckCircle" size={12} /> Steam</span>
                 </div>
               </div>
             </div>
